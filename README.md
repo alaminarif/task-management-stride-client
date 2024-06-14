@@ -1,8 +1,8 @@
-# **computer-shope**
+# **Task-Management**
 
-## [computer-shope-client-link](https://computer-shope-9d005.web.app/)
+## [task-management-client-link](https://game-of-rl.web.app/)
 
-## [computer-shope-Sever-link](https://task-management-stride-server.onrender.com/)
+## [task-management-Sever-link](https://tm-tool.onrender.com/)
 
 ## Website Descreption:
 

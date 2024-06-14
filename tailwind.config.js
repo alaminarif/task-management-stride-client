@@ -1,23 +1,25 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {},
+    },
   },
-  // eslint-disable-next-line no-undef
   plugins: [require("daisyui")],
   daisyui: {
     themes: [
       {
         mytheme: {
-          primary: "#F3D0D7",
-          secondary: "#FFEFEF",
-          accent: "#F0EBE3",
-          neutral: "#F6F5F2",
+          primary: "#029944",
+          secondary: "#749503",
+          accent: "#F9FAFA",
+          neutral: "#3D474D",
           "base-100": "#ffffff",
         },
       },
       "light",
+      "cupcake",
     ],
   },
 };

@@ -1,0 +1,41 @@
+.home-banner-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    grid-column-gap: 50px;
+}
+
+
+.list-banner {
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-image {
+    width: 90%;
+    margin-top: -70px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@media only screen and (max-width: 570px){
+    .home-banner-parent{
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 100px;
+
+    }
+    
+}

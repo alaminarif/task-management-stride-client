@@ -1,0 +1,48 @@
+.addMember-form {
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 12%;
+    margin-right: 8%;
+    border-radius: 50px;
+    padding: 50px 30px;
+    box-shadow: 0 4px 8px 0;
+    border: 1px solid #17dde1
+}
+
+.addMember-form-top {
+
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    grid-row-gap: 25px;
+}
+
+.input-addMember-form {
+    width: 275px;
+    margin-left: 5px;
+}
+
+.addMember-form-bottom {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@media only screen and (max-width: 570px) {
+    .addMember-form {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .addMember-form-top {
+        display: block;
+    }
+
+    .input-addMember-form {
+        width: 100%;
+
+    }
+}

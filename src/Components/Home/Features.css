@@ -1,0 +1,17 @@
+.features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5em;
+
+}
+
+@media only screen and (max-width: 570px){
+    .features{
+     
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2.5em;
+    
+    }
+    
+}
+

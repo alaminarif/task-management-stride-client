@@ -1,0 +1,38 @@
+/* .tmtabout{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5em;
+
+}
+.about{
+    text-align: center;
+    font-size: x-large;
+}
+@media only screen and (max-width: 570px){
+    .tmtabout{
+     
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2.5em;
+    
+    }
+    
+} */
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5em;
+
+}
+
+@media only screen and (max-width: 570px){
+    .about{
+     
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2.5em;
+    
+    }
+    
+}
+
